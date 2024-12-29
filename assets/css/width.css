@@ -1,0 +1,52 @@
+.container {
+  overflow-x: hidden !important;
+}
+
+.bi-why-choose-us-section-4 {
+  overflow-y: hidden;
+}
+
+.bi-about-content {
+  overflow: hidden !important;
+}
+
+.bi-fun-fact-section {
+  overflow: hidden !important;
+}
+
+.bi-why-choose-textarea {
+  overflow: hidden !important;
+}
+
+.bi-why-choose-us-area-1 {
+  overflow: hidden;
+}
+
+.bi-about-content-4 {
+  overflow: hidden;
+  text-align: center;
+}
+
+#bi-contact-form {
+  margin: 40px;
+}
+
+.bi-section-title-1,
+.teamAnswer {
+  padding-left: 20px;
+}
+
+@media (max-width: 480px) {
+  .service-img {
+    max-height: 400px;
+    max-width: 400px;
+  }
+  #bi-contact-form {
+    margin: 0;
+  }
+
+  .bi-section-title-1,
+  .teamAnswer {
+    padding: 10px;
+  }
+}
